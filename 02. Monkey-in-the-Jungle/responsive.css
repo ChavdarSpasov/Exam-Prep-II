@@ -1,0 +1,51 @@
+@media screen and (max-width: 480px) {
+
+    body{
+        font-family: "Poppins", sans-serif;
+        font-weight: 300;
+        font-size: 15px;
+        line-height: 1.6;
+        color: #A2A2A2;
+    }
+
+    .wrapper > header h2::after {
+        width: 60%;
+    }
+    
+    .wrapper.style1 .content {
+        padding: 2rem;
+    }
+
+    .wrapper.style2{
+        padding: 1rem;
+    }
+
+    .wrapper > header{
+        padding: 1rem;
+    }
+
+    .gallery > *{
+        width: 100%
+    }
+
+    .spotlight p:last-child {
+        margin: 12px;
+    }
+
+    .spotlight > *{
+        width: 100%;
+    }
+
+    .spotlight .inner{
+        padding: 1rem;
+        text-align: center;
+    }
+
+    .spotlight p:last-child{
+     margin: 1px;   
+    }
+
+    footer{
+        font-size: 0.7rem;
+    }
+}

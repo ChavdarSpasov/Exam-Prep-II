@@ -1,0 +1,40 @@
+body {
+    background: #F8E8C6; 
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 3rem;
+    padding: 2rem 1rem;
+    border: 1px solid white;
+    border-radius: 15px;
+    box-shadow: 0px 0px 18px 0px rgba(50, 50, 50, 0.56);
+    background: #ffff;
+
+}
+
+section {
+    width: 17%;
+    margin: 0 5rem;
+}
+
+.head{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+img {
+    width: 100px;
+}
+
+.body{
+    height: 49%;
+}
+
+.footer p:nth-child(1){
+    color: #b2857e;
+    text-shadow: 16px 20px 1px rgb(150, 150, 150);
+
+}
